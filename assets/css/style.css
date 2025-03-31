@@ -117,6 +117,20 @@ menu > li {
 
 }
 
+#circle-cover-background {
+    background: url("../images/reasons-image.webp") no-repeat top center cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px; 
+    border-radius: 50%;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
