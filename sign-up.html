@@ -43,19 +43,34 @@ YPE html>
                 <h2>
                     Let's get you signed up!<i class="fa-solid fa-heart-pulse"></i>
                 </h2>
-                <input label="First Name" required type="text" class="text-input">
+                <label for="first-name">First Name</label>
+                <input tyoe="text" name="first_name" required id="first-name" class="text-input">
                 <br>
-                <input label="Last Name" required type="text" class="text-input">
+                <label for="last-name">Last Name</label>
+                <input type="text" required name="last_name" id="last-name" class="text-input">
                 <br>
-                <input label="Email Address" required type="text" class="text-input">
+                <label for="email-address">Email Address</label>
+                <input id="email-address" required type="text" class="text-input" type="text">
                 <br>
                 <div class="radio-buttons">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running_preference" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input id="trail" type="radio" name="running_preference" value="trail" required>
+
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input id="both" type="radio" name="running_preference" value="both" required>
+
+                    </div>
 
                 </div>
-
+                <button type="submit" class="join-button">Let's Run</button>
+ 
             </form>
 
         </section>
