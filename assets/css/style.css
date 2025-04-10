@@ -122,7 +122,8 @@ menu > li {
 }
 
 #circle-cover-background {
-    background: url("../images/reasons-image.webp") no-repeat top center cover;
+    background: url("../images/reasons-image.webp") no-repeat top center;
+    background-size: cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px; 
@@ -154,7 +155,7 @@ nav {
 }
 
 /*Nav toggle */
-#nav-toggle:checked-nav {
+#nav-toggle: checked-nav {
     display: block;
 
 }
@@ -386,8 +387,6 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    ...
-
     /* Form */
     #signup {
         background-position: center;
